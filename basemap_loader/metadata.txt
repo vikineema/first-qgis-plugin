@@ -1,0 +1,15 @@
+;  See https://docs.qgis.org/3.44/en/docs/pyqgis_developer_cookbook/plugins/plugins.html#metadata-txt
+;  for the expected fields
+[general]
+name=Basemap Loader
+description=This plugin adds a basemap layer to QGIS
+about=This plugin adds a basemap layer to QGIS
+version=1.0
+qgisMinimumVersion=3.0
+qgisMaximumVersion=4.0
+author=Victoria Neema
+emai=vneema@tutamail.com
+repository=https://github.com/vikineema/first-qgis-plugin
+; Is this a relative or absolute path?
+icon=logo.png
+supportsQt6=True

@@ -1,0 +1,14 @@
+name: qgis-plugin-dev
+channels:
+  - conda-forge
+dependencies:
+  # base
+  - python==3.12.3
+  - gdal==3.12.3
+  # jupyterlab + extras
+  - jupytergis
+  - geopandas
+  - pre-commit
+  - ruff
+  # qgis + extras
+  - qgis
